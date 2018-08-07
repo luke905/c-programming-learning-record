@@ -1,6 +1,6 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 main()
-{   //¿é¤J¨â¼Æ¦r¡A¿é¥X®É¹ï½Õ¥L­Ìªº­È ¥u±Ä¥Î¨â­ÓÅÜ¼Æ
+{   //è¼¸å…¥å…©æ•¸å­—ï¼Œè¼¸å‡ºæ™‚å°èª¿ä»–å€‘çš„å€¼ åªæ¡ç”¨å…©å€‹è®Šæ•¸
     int integer1,integer2;
     printf("please enter the integer1: ");
     scanf("%d",&integer1);
@@ -11,7 +11,7 @@ main()
     integer1=integer1-integer2;
     printf("integer1 = %d\n",integer1);
     printf("integer2 = %d\n",integer2);
-    /*¿é¤J¨â¼Æ¦r¡A¿é¥X®É¹ï½Õ¥L­Ìªº­È
+    /*è¼¸å…¥å…©æ•¸å­—ï¼Œè¼¸å‡ºæ™‚å°èª¿ä»–å€‘çš„å€¼
     int integer1,integer2,temp;
     printf("please enter the integer1: ");
     scanf("%d",&integer1);
@@ -22,7 +22,7 @@ main()
     integer2 = temp;
     printf("integer1: %d\n", integer1);
     printf("integer2: %d\n", integer2);
-    /*¿é¤J¼Æ¦r¡A¿é¥XÁ`©M&¥Î¨â­ÓÅÜ¼Æ§¹¦¨ªº¤èªk
+    /*è¼¸å…¥æ•¸å­—ï¼Œè¼¸å‡ºç¸½å’Œ&ç”¨å…©å€‹è®Šæ•¸å®Œæˆçš„æ–¹æ³•
     int integer,sum = 0;
     printf("please enter the integer: ");
     scanf("%d",&integer);
@@ -35,7 +35,7 @@ main()
     sum = sum+integer;
     printf("sum is %d ",sum);*/
 
-    /*¿é¤J¼Æ¦r¡A¿é¥XÁ`©M&¤T­ÓÅÜ¼Æªº¤èªk
+    /*è¼¸å…¥æ•¸å­—ï¼Œè¼¸å‡ºç¸½å’Œ&ä¸‰å€‹è®Šæ•¸çš„æ–¹æ³•
     int integer1,integer2,integer3,sum;
     printf("please enter the first integer: ");
     scanf("%d",&integer1);
