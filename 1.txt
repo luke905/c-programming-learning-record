@@ -1,0 +1,48 @@
+#include<stdio.h>
+main()
+{   //輸入兩數字，輸出時對調他們的值 只採用兩個變數
+    int integer1,integer2;
+    printf("please enter the integer1: ");
+    scanf("%d",&integer1);
+    printf("please enter the integer2: ");
+    scanf("%d",&integer2);
+    integer1=integer1+integer2;
+    integer2=integer1-integer2;
+    integer1=integer1-integer2;
+    printf("integer1 = %d\n",integer1);
+    printf("integer2 = %d\n",integer2);
+    /*輸入兩數字，輸出時對調他們的值
+    int integer1,integer2,temp;
+    printf("please enter the integer1: ");
+    scanf("%d",&integer1);
+    printf("please enter the integer2: ");
+    scanf("%d",&integer2);
+    temp = integer1;
+    integer1 = integer2;
+    integer2 = temp;
+    printf("integer1: %d\n", integer1);
+    printf("integer2: %d\n", integer2);
+    /*輸入數字，輸出總和&用兩個變數完成的方法
+    int integer,sum = 0;
+    printf("please enter the integer: ");
+    scanf("%d",&integer);
+    sum = sum+integer;
+    printf("please enter the integer: ");
+    scanf("%d",&integer);
+    sum = sum+integer;
+    printf("please enter the integer: ");
+    scanf("%d",&integer);
+    sum = sum+integer;
+    printf("sum is %d ",sum);*/
+
+    /*輸入數字，輸出總和&三個變數的方法
+    int integer1,integer2,integer3,sum;
+    printf("please enter the first integer: ");
+    scanf("%d",&integer1);
+    printf("please enter the second integer: ");
+    scanf("%d",&integer2);
+    printf("please enter the third integer: ");
+    scanf("%d",&integer3);
+    printf("sum is %d\n",sum = integer1 + integer2 + integer3 );
+    return 0;*/
+}
